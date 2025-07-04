@@ -10,9 +10,9 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
  **Install dependencies**:
     (Ensure `requirements.txt` is in the project root directory)
-    ```bash
-    pip install -r requirements.txt
-    ```
+```
+pip install -r requirements.txt
+```
 
 Then simply go to this drive:
 'https://drive.google.com/drive/folders/1iDNwooaIGfxeb335f40Z78Ov89D9JRXR'
