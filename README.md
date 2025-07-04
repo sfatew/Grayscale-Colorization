@@ -6,4 +6,4 @@ To run the demo, simply go to this drive:
 
 download the models from there and put them into the model folder.
 
-After that you can run the Infer.py file and do as the requirement  
+After that you can run the Infer.py file and follow what is told when rrunning the file  
