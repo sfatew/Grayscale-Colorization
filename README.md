@@ -14,7 +14,7 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-Then simply go to this drive:
+Then simply go to this drive: \n
 'https://drive.google.com/drive/folders/1iDNwooaIGfxeb335f40Z78Ov89D9JRXR'
 
 download the models from there and put them into the model folder.
