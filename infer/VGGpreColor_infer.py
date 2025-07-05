@@ -26,7 +26,7 @@ from model_build.VGG_pre import colorization
 parser = argparse.ArgumentParser(description="Image Captioning Inference")
 parser.add_argument("--image_path", type=str, required=True, help="Path to input image")
 parser.add_argument("--model_checkpoint", type=str, default=r"model/model_VVG_pre.pth", help="Path to model checkpoint")
-parser.add_argument("--usage", type=str, default="real", help="use for 'test' or 'real'")
+parser.add_argument("--usage", type=str, default="test", help="use for 'test' or 'real'")
 
 
 def load_model(model_path, device):
