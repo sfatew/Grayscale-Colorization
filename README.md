@@ -22,4 +22,4 @@ https://drive.google.com/drive/folders/1iDNwooaIGfxeb335f40Z78Ov89D9JRXR
 Download the models from there, create a `model` folder in the poject root directory an put them in there.
 
 After that you can run the Infer.py file and follow what it told to run the file  
-Note that you can also run each file in the infer 'folder' seperately and dont have to use Infer.py if you dont want to
+Note that you can also run each file in the 'infer' folder seperately and dont have to use Infer.py if you dont want to
