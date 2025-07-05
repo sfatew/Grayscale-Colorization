@@ -37,8 +37,9 @@ def preprocess_image(image_path, image_size, mode="real"):
         ab = torch.tensor(ab, dtype=torch.float32).permute(2, 0, 1).unsqueeze(0)  # (1, 2, H, W)
         return {'L': L, 'ab': ab}
     else:
-        transform = transforms.Compose([transforms.ToTensor()])
-        L = transform(img).unsqueeze(0)  # (1, 1, H, W)
+        img = np.array(img)
+        img = img / 50. - 1.
+        L = torch.tensor(img, dtype=torch.float32).unsqueeze(0).unsqueeze(0)  # (1, 1, H, W)
         return L
 
 def colorize_image(generator, L_tensor):
