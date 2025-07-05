@@ -21,7 +21,7 @@ def main():
     script_name = INFER_SCRIPTS[choice][1]
     image_path = input("Enter path to input image: ").strip()
     model_checkpoint = input("Enter path to model checkpoint (or leave blank for default): ").strip()
-    usage = input("Usage mode ('test' or 'real', default 'real'): ").strip() or "real"
+    usage = input("Usage mode ('test' or 'real', default 'test'): ").strip() or "test"
 
     # Check if model_checkpoint exists if provided
     if model_checkpoint and not os.path.isfile(model_checkpoint):
