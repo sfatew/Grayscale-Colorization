@@ -86,6 +86,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Image Colorization Inference")
     parser.add_argument("--image_path", type=str, required=True, help="Path to input image")
     parser.add_argument("--model_checkpoint", type=str, default= f"model/GAN.pth", help="Path to generator checkpoint")
-    parser.add_argument("--usage", type=str, default="real", choices=["test", "real"], help="Usage mode: 'test' or 'real'")
+    parser.add_argument("--usage", type=str, default="test", choices=["test", "real"], help="Usage mode: 'test' or 'real'")
     args = parser.parse_args()
     main(args)
